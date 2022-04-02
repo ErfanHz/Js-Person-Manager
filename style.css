@@ -1,0 +1,220 @@
+@import url(fonts/css/fontiran.css);
+body {
+    font-family: IRANSans !important;
+    font-weight: 300;
+    background-color: rgb(200, 200, 200) !important;
+    margin: 0;
+}
+
+.rtl {
+    direction: rtl !important;
+}
+
+.floutBtn {
+    position: fixed;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    color: wheat;
+    font-size: 25px;
+}
+
+#row div, #row {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.floutLeft {
+    background: green;
+    left: 30px;
+}
+
+.floutRight {
+    background: dodgerblue;
+    right: 30px;
+}
+
+.outline-none {
+    outline: none !important;
+}
+
+.customImage {
+    border-radius: 50%;
+    border: 8px solid goldenrod;
+}
+
+.customCard {
+    box-shadow: 0px 0px 20px 0px grey;
+    border-radius: 30px !important;
+    border: 0.5px solid grey !important;
+}
+
+.hover-pointer:hover {
+    cursor: pointer !important;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slider {
+    overflow-y: hidden;
+    overflow-x: auto;
+    border: 1px solid grey;
+    border-radius: 38px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 22px 10px grey;
+}
+
+.slider::-webkit-scrollbar {
+    width: 20px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background: rgb(6, 185, 0);
+    border-radius: 10px;
+}
+
+.slider::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 121, 0);
+}
+
+.w-18 {
+    width: 15rem !important;
+}
+
+@media (min-width :500px) {
+    .modal-content {
+        width: 70% !important;
+    }
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.navigation {
+    position: fixed;
+    bottom: 10px;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+}
+
+.user-select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
